@@ -52,11 +52,13 @@ body {
 
 .Profile {
     display: grid;
-     grid-template-columns: minmax(300px, 550px) minmax(280px, 1fr);
-    gap: 42px;
+     grid-template-columns: minmax(400px, 650px) minmax(240px, 1fr);
+    gap: 50px;
     align-items: start;
 }
-
+.Profile-left {
+    min-width: 0;
+    }
 .Profile-image {
     width: 100%;
     height: 340px;
@@ -72,20 +74,21 @@ body {
 }
 
 .Profile-details {
-    padding: 0 10px;
+    padding: 0 ;
 }
 
 .Profile-details h1 {
-    margin: 0 0 28px;
+    margin: 0 0 22px;
     color: #272727;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(38px, 4vw, 56px);
+    font-size: clamp(30px, 3vw, 42px);
     line-height: 1.08;
 }
 
 .Profile-details p {
-    margin: 0 0 24px;
-    font-size: 20px;
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .email {
@@ -112,9 +115,9 @@ body {
 .Profile-links a {
     display: block;
     width: fit-content;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
     color: #176dcc;
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -125,14 +128,15 @@ body {
 /* Biography */
 
 .biography {
-    max-width: 1120px;
-    margin-top: 55px;
+    max-width: 100%;
+    margin-top: 35px;
 }
 
 .biography p {
     margin: 0 0 18px;
     font-size: 16px;
-    text-align: justify;
+    line-height: 1.6;
+    text-align: left;
 }
 
 /* Tablet */
@@ -140,18 +144,33 @@ body {
 @media (max-width: 900px) {
     .Profile {
         grid-template-columns: 1fr;
+         gap: 30px;
+    }
+  .Profile-image {
+        height: 340px;
+  }
+
+ .Profile-details {
+        grid-row: 2;
     }
 
-    .Profile-image {
-        width: 100%;
-        max-width: 550px;
-        height: 340px;
+    .biography {
+        margin-top: 30px;
     }
 }
 
 @media (max-width: 600px) {
     .Profile-image {
-        max-width: 100%;
         height: 260px;
+    }
+
+    .Profile-details h1 {
+        font-size: 30px;
+    }
+
+    .Profile-details p,
+    .Profile-links a,
+    .biography p {
+        font-size: 15px;
     }
 }
