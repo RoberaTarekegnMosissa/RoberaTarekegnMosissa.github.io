@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Curriculum vitae of Robera Tarekegn Mosissa."
+    >
+
+    <title>CV | Robera Tarekegn Mosissa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="publications.html">Publications</a>
+            <a href="cv.html" class="active">CV</a>
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <section class="cv-page">
+
+            <div class="cv-heading">
+
+                <div>
+                    <h1>Curriculum Vitae</h1>
+                    <p>
+                        Academic and professional profile of
+                        Robera Tarekegn Mosissa.
+                    </p>
+                </div>
+
+                <a
+                    class="download-button"
+                    href="Robera CV_PHD.pdf"
+                    download
+                >
+                    Download CV
+                </a>
+
+            </div>
+
+            <iframe
+                class="cv-viewer"
+                src="Robera CV_PHD.pdf"
+                title="Curriculum vitae of Robera Tarekegn Mosissa"
+            >
+            </iframe>
+
+            <p class="cv-fallback">
+                If the CV does not appear,
+                <a href="Robera CV_PHD.pdf" target="_blank">
+                    open the PDF here
+                </a>.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
