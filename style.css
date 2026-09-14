@@ -58,7 +58,7 @@ body {
     padding: 45px 20px 80px;
 }
 
-/* Profile section */
+/* Profile layout */
 
 .Profile {
     display: grid;
@@ -96,34 +96,52 @@ body {
 }
 
 .Profile-details h1 {
-    margin: 0 0 22px;
+    margin: 0 0 25px;
     color: #272727;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(30px, 3vw, 42px);
+    font-size: clamp(30px, 3vw, 38px);
     line-height: 1.08;
 }
 
 .Profile-details p {
-    margin: 0 0 20px;
     font-size: 16px;
     line-height: 1.5;
 }
 
-/* Email */
+/* Email addresses */
 
 .email {
-    font-weight: 700;
+    margin: 0 0 14px;
     overflow-wrap: anywhere;
+}
+
+.email span {
+    display: block;
+    margin-bottom: 2px;
+    color: #666666;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .email a {
     color: #151515;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .email a:hover {
     color: #176dcc;
     text-decoration: underline;
+}
+
+.email-secondary a {
+    font-weight: 400;
+}
+
+/* Position and affiliation */
+
+.position {
+    margin: 30px 0 0;
 }
 
 /* Social links */
@@ -150,7 +168,7 @@ body {
 
 .biography {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .biography h2 {
@@ -186,7 +204,7 @@ body {
     }
 
     .biography {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 }
 
@@ -208,11 +226,16 @@ body {
         padding: 25px 20px 60px;
     }
 
+    .Profile {
+        gap: 25px;
+    }
+
     .Profile-image {
         height: 260px;
     }
 
     .Profile-details h1 {
+        margin-bottom: 22px;
         font-size: 30px;
     }
 
@@ -222,12 +245,24 @@ body {
         font-size: 15px;
     }
 
-    .biography h2 {
-        font-size: 23px;
+    .email span {
+        font-size: 12px;
+    }
+
+    .position {
+        margin-top: 25px;
     }
 
     .Profile-links {
         gap: 16px;
         margin-top: 25px;
+    }
+
+    .biography {
+        margin-top: 30px;
+    }
+
+    .biography h2 {
+        font-size: 23px;
     }
 }
