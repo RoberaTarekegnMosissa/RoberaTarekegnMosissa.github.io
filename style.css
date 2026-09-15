@@ -339,3 +339,62 @@ body {
         height: 650px;
     }
 }
+/* Research page */
+
+.research-page {
+    max-width: 900px;
+}
+
+.research-page > h1 {
+    margin: 0 0 35px;
+    color: #272727;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+}
+
+.research-project {
+    padding-left: 25px;
+    border-left: 4px solid #176dcc;
+}
+
+.research-label {
+    margin: 0 0 10px;
+    color: #176dcc;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.research-project h2 {
+    margin: 0 0 20px;
+    color: #272727;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.research-project p {
+    margin: 0 0 18px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .research-page > h1 {
+        margin-bottom: 25px;
+        font-size: 32px;
+    }
+
+    .research-project {
+        padding-left: 18px;
+    }
+
+    .research-project h2 {
+        font-size: 23px;
+    }
+
+    .research-project p {
+        font-size: 15px;
+    }
+}
