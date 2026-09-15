@@ -266,3 +266,76 @@ body {
         font-size: 23px;
     }
 }
+/* CV page */
+
+.cv-page {
+    width: 100%;
+}
+
+.cv-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.cv-heading h1 {
+    margin: 0 0 8px;
+    color: #272727;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+}
+
+.cv-heading p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.download-button {
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 11px 20px;
+    border-radius: 4px;
+    background-color: #176dcc;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #1058a8;
+}
+
+.cv-viewer {
+    display: block;
+    width: 100%;
+    height: 900px;
+    border: 1px solid #d5d5d5;
+}
+
+.cv-fallback {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cv-fallback a {
+    color: #176dcc;
+}
+
+/* CV page on mobile */
+
+@media (max-width: 600px) {
+    .cv-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .cv-heading h1 {
+        font-size: 30px;
+    }
+
+    .cv-viewer {
+        height: 650px;
+    }
+}
