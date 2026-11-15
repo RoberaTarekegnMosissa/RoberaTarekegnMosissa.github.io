@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Afaan Oromo writing, science communication, community engagement and volunteer work by Robera Tarekegn Mosissa."
+    >
+
+    <title>Outreach | Robera Tarekegn Mosissa</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="Research.html">Research</a>
+
+            <a href="publications.html">Publications</a>
+
+            <a
+                href="Outreach.html"
+                class="active"
+                aria-current="page"
+            >
+                Outreach
+            </a>
+
+            <a href="CV.html">CV</a>
+
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <header class="page-header">
+
+            <h1>Outreach and Community Engagement</h1>
+
+            <p>
+                Beyond my work in hydroclimate research, I enjoy reading and writing
+               about Oromo history, culture and society. I am also committed to
+               volunteering and contributing to educational and community initiatives
+               that support Oromo people.
+            </p>
+
+        </header>
+
+        <section aria-labelledby="writing-heading">
+
+            <h2 id="writing-heading">Afaan Oromo Writing</h2>
+
+            <p>
+                This section presents my articles, educational materials and
+                public-facing posts written in Afaan Oromo.
+            </p>
+
+            <div class="outreach-list">
+
+                <article class="outreach-item">
+
+                    <h3>Title of your first article</h3>
+
+                    <p>
+                        Add a short explanation of the article and the subject
+                        it discusses.
+                    </p>
+
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        Read the article
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="volunteering-heading">
+
+            <h2 id="volunteering-heading">Volunteer Work</h2>
+
+            <article class="outreach-item">
+
+                <h3>Volunteer Teaching</h3>
+
+                <p>
+                    Describe where you volunteered, the learners or community
+                    you supported, the subjects you taught and what the
+                    experience taught you.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section aria-labelledby="communication-heading">
+
+            <h2 id="communication-heading">Science Communication</h2>
+
+            <p>
+                Here I share accessible explanations of hydrology, climate
+                science, drought, flooding and environmental change for
+                non-specialist audiences.
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
